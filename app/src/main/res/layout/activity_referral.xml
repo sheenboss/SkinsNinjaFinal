@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgguns"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <EditText
+            android:id="@+id/ref_input_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="@string/referal_hint_txt"
+            android:maxLength="20"
+            android:textColor="@color/white"
+            android:textColorHint="@color/myGrey2"/>
+
+        <Button
+            android:id="@+id/use_code_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_gradient_on"
+            android:stateListAnimator="@null"
+            android:text="GET POINTS"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/ref_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:text="YOUR_REF_CODE"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:layout_marginBottom="20dp"
+            android:text="Tap to copy"/>
+
+
+        <TextView
+            android:id="@+id/desc_about_refer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_referal"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/desc_about_refer2"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/about_referal2"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/myGreenLight"/>
+
+
+        <Button
+            android:id="@+id/invite_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_gradient_on"
+            android:padding="15dp"
+            android:text="INVITE FRIENDS"
+            android:textColor="@color/white"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+
+</LinearLayout>

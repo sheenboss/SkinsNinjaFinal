@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/test_fragment"
+    android:theme="@style/AppTheme"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:background="@drawable/bgguns"
+        android:visibility="visible"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="0dp">
+            <ImageView
+                android:id="@+id/ninjalogo"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/logo"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_below="@id/ninjalogo"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/policy_text_button"
+                android:text="By signing up you agree to our Terms of Service and Privacy Policy."
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/button_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Login to continue"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    />
+                <View
+                    android:id="@+id/viewline"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content">
+                        <ImageButton
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/googleg_standard_color_18"
+                            android:textColor="@color/cardview_light_background"
+                            android:textStyle="bold"
+                            android:background="#343434"
+                            android:theme="@style/AppTheme"/>
+                    </LinearLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/glogin_button"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:background="#343434"
+                            android:text="Login with Google" android:textColor="@color/cardview_light_background"
+                            android:gravity="left|center_vertical"
+                            android:textAllCaps="false"
+                            android:paddingLeft="20dip"
+                            android:textSize="18dp"
+                            android:theme="@style/AppTheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp">
+                </View>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

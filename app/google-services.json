@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "156404821418",
+    "firebase_url": "https://skinsninja-b1033.firebaseio.com",
+    "project_id": "skinsninja-b1033",
+    "storage_bucket": "skinsninja-b1033.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156404821418:android:4a4a091a33d64cd5",
+        "android_client_info": {
+          "package_name": "ggappsdev.skinsninja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156404821418-p9tgjl1s4vs5d8vhprs38da8o78esu87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ggappsdev.skinsninja",
+            "certificate_hash": "603acd717e3a8edf9fd598eacf38d8c0b95cd8ef"
+          }
+        },
+        {
+          "client_id": "156404821418-dstdmhq920ioo1i8reds6qutla1itv2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4e3NgkIktGbq4AysmV4kA0pIqYTcefOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156404821418-dstdmhq920ioo1i8reds6qutla1itv2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
